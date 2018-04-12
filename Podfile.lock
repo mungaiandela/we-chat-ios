@@ -1,0 +1,21 @@
+PODS:
+  - MarqueeLabel/Swift (3.1.4)
+  - NotificationBannerSwift (1.6.2):
+    - MarqueeLabel/Swift
+    - SnapKit (~> 4.0)
+  - SnapKit (4.0.0)
+  - TwilioVideo (2.0.0-beta2)
+
+DEPENDENCIES:
+  - NotificationBannerSwift
+  - TwilioVideo (= 2.0.0-beta2)
+
+SPEC CHECKSUMS:
+  MarqueeLabel: bf768455fe88d427f71476ebb23f9092b660f40b
+  NotificationBannerSwift: 4eceb2add9d5eaa0596c63d49690b4d6476e74ec
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  TwilioVideo: 7965c10c6cd24fd7fa291f5d96d130b1f6ce4da4
+
+PODFILE CHECKSUM: ed0ae8dd18fa1c1d20f4385adf94123a9487ba82
+
+COCOAPODS: 1.4.0
