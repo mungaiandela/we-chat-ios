@@ -72,10 +72,15 @@ extension ViewController: TVIRemoteParticipantDelegate {
         // remote Participant's video frames now.
         
         if self.remoteParticipant == participant {
-            let renderer = TVIVideoView(frame: remoteView.bounds)
-            videoTrack.addRenderer(renderer)
-            renderer.contentMode = .scaleAspectFit
-            self.remoteView.insertSubview(renderer, at: 0)
+            if let renderer = TVIVideoView(frame: remoteView.frame, delegate: self, renderingType: .openGLES) {
+                videoTrack.addRenderer(renderer)
+                renderer.contentMode = .scaleAspectFit
+                renderer.tag = 140069
+                self.remoteView.addSubview(renderer)
+            }
+            else {
+                print("********No video added*******")
+            }
         }
     }
     
@@ -87,8 +92,11 @@ extension ViewController: TVIRemoteParticipantDelegate {
         // remote Participant's video.
 
         if (self.remoteParticipant == participant) {
-            self.remoteView?.removeFromSuperview()
-            self.remoteView = nil
+            self.remoteView?.subviews.forEach({
+                if $0.tag == 140069 {
+                    $0.removeFromSuperview()
+                }
+            })
         }
     }
 }

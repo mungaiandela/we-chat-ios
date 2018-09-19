@@ -38,6 +38,12 @@ class ViewController: UIViewController {
     
     // MARK: Overriden public methods
     
+    override func viewDidLayoutSubviews() {
+        
+        previewView.contentMode = .scaleAspectFill
+        previewView.layer.cornerRadius = 5
+    }
+    
     public override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -197,20 +203,20 @@ class ViewController: UIViewController {
     internal func logWarningMessage(messageText: String) {
         
         let banner = NotificationBanner(title: messageText, style: .warning)
-        banner.show(on: self)
+        banner.show(on: self.navigationController)
         banner.dismiss()
     }
     
     internal func logSuccessMessage(messageText: String) {
         
         let banner = NotificationBanner(title: messageText, style: .success)
-        banner.show(on: self)
+        banner.show(on: self.navigationController)
         banner.dismiss()
     }
     
     internal func logDangerMessage(messageText: String) {
         let banner = NotificationBanner(title: messageText, style: .danger)
-        banner.show(on: self)
+        banner.show(on: self.navigationController)
         banner.dismiss()
     }
     
