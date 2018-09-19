@@ -23,7 +23,7 @@
 		5B8A3B70205AC4AA004136F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A3B6F205AC4AA004136F4 /* Assets.xcassets */; };
 		5B8A3B73205AC4AA004136F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A3B71205AC4AA004136F4 /* LaunchScreen.storyboard */; };
 		5BE679F1205FB9DB00FDC046 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE679F0205FB9DB00FDC046 /* Utils.swift */; };
-		5BE679F3205FBC8E00FDC046 /* Ex+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE679F2205FBC8E00FDC046 /* Ex+ViewController.swift */; };
+		5BE679F3205FBC8E00FDC046 /* ViewControllerDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE679F2205FBC8E00FDC046 /* ViewControllerDelegates.swift */; };
 		B7CA99E4366C64618DBA3203 /* Pods_wechat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC67A585FA1922F2DD123746 /* Pods_wechat.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +48,7 @@
 		5B8A3B72205AC4AA004136F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B8A3B74205AC4AA004136F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BE679F0205FB9DB00FDC046 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		5BE679F2205FBC8E00FDC046 /* Ex+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+ViewController.swift"; sourceTree = "<group>"; };
+		5BE679F2205FBC8E00FDC046 /* ViewControllerDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDelegates.swift; sourceTree = "<group>"; };
 		EC67A585FA1922F2DD123746 /* Pods_wechat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wechat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -97,7 +97,7 @@
 			children = (
 				5B8A3B6F205AC4AA004136F4 /* Assets.xcassets */,
 				5B8A3B68205AC4AA004136F4 /* AppDelegate.swift */,
-				5BE679F2205FBC8E00FDC046 /* Ex+ViewController.swift */,
+				5BE679F2205FBC8E00FDC046 /* ViewControllerDelegates.swift */,
 				5B8A3B6A205AC4AA004136F4 /* ViewController.swift */,
 				5B8A3B71205AC4AA004136F4 /* LaunchScreen.storyboard */,
 				5B8A3B6C205AC4AA004136F4 /* Main.storyboard */,
@@ -277,7 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B8A3B6B205AC4AA004136F4 /* ViewController.swift in Sources */,
-				5BE679F3205FBC8E00FDC046 /* Ex+ViewController.swift in Sources */,
+				5BE679F3205FBC8E00FDC046 /* ViewControllerDelegates.swift in Sources */,
 				5B8A3B69205AC4AA004136F4 /* AppDelegate.swift in Sources */,
 				5BE679F1205FB9DB00FDC046 /* Utils.swift in Sources */,
 				5B57C2BF2061447D00B794F2 /* Settings.swift in Sources */,
