@@ -16,14 +16,10 @@
 		5B423E53205ACE7A0017B3E5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B423E52205ACE7A0017B3E5 /* CoreMedia.framework */; };
 		5B423E55205ACE870017B3E5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B423E54205ACE870017B3E5 /* SystemConfiguration.framework */; };
 		5B423E57205ACEA90017B3E5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B423E56205ACEA90017B3E5 /* libc++.tbd */; };
-		5B57C2BF2061447D00B794F2 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B57C2BE2061447D00B794F2 /* Settings.swift */; };
 		5B8A3B69205AC4AA004136F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A3B68205AC4AA004136F4 /* AppDelegate.swift */; };
-		5B8A3B6B205AC4AA004136F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8A3B6A205AC4AA004136F4 /* ViewController.swift */; };
 		5B8A3B6E205AC4AA004136F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A3B6C205AC4AA004136F4 /* Main.storyboard */; };
 		5B8A3B70205AC4AA004136F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A3B6F205AC4AA004136F4 /* Assets.xcassets */; };
 		5B8A3B73205AC4AA004136F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8A3B71205AC4AA004136F4 /* LaunchScreen.storyboard */; };
-		5BE679F1205FB9DB00FDC046 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE679F0205FB9DB00FDC046 /* Utils.swift */; };
-		5BE679F3205FBC8E00FDC046 /* ViewControllerDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE679F2205FBC8E00FDC046 /* ViewControllerDelegates.swift */; };
 		B7CA99E4366C64618DBA3203 /* Pods_wechat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC67A585FA1922F2DD123746 /* Pods_wechat.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,16 +35,12 @@
 		5B423E52205ACE7A0017B3E5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		5B423E54205ACE870017B3E5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5B423E56205ACEA90017B3E5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		5B57C2BE2061447D00B794F2 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		5B8A3B65205AC4AA004136F4 /* wechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8A3B68205AC4AA004136F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B8A3B6A205AC4AA004136F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B8A3B6D205AC4AA004136F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B8A3B6F205AC4AA004136F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B8A3B72205AC4AA004136F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B8A3B74205AC4AA004136F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BE679F0205FB9DB00FDC046 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		5BE679F2205FBC8E00FDC046 /* ViewControllerDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDelegates.swift; sourceTree = "<group>"; };
 		EC67A585FA1922F2DD123746 /* Pods_wechat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wechat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -76,7 +68,6 @@
 		5B8A3B5C205AC4AA004136F4 = {
 			isa = PBXGroup;
 			children = (
-				5BE679EF205FB9C700FDC046 /* Utils */,
 				5B8A3B67205AC4AA004136F4 /* wechat */,
 				5B8A3B66205AC4AA004136F4 /* Products */,
 				D2F91EE352E0EE43725268F0 /* Pods */,
@@ -97,22 +88,11 @@
 			children = (
 				5B8A3B6F205AC4AA004136F4 /* Assets.xcassets */,
 				5B8A3B68205AC4AA004136F4 /* AppDelegate.swift */,
-				5BE679F2205FBC8E00FDC046 /* ViewControllerDelegates.swift */,
-				5B8A3B6A205AC4AA004136F4 /* ViewController.swift */,
 				5B8A3B71205AC4AA004136F4 /* LaunchScreen.storyboard */,
 				5B8A3B6C205AC4AA004136F4 /* Main.storyboard */,
 				5B8A3B74205AC4AA004136F4 /* Info.plist */,
 			);
 			path = wechat;
-			sourceTree = "<group>";
-		};
-		5BE679EF205FB9C700FDC046 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				5BE679F0205FB9DB00FDC046 /* Utils.swift */,
-				5B57C2BE2061447D00B794F2 /* Settings.swift */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		A7E171E026A72B95A86849B9 /* Frameworks */ = {
@@ -276,11 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B8A3B6B205AC4AA004136F4 /* ViewController.swift in Sources */,
-				5BE679F3205FBC8E00FDC046 /* ViewControllerDelegates.swift in Sources */,
 				5B8A3B69205AC4AA004136F4 /* AppDelegate.swift in Sources */,
-				5BE679F1205FB9DB00FDC046 /* Utils.swift in Sources */,
-				5B57C2BF2061447D00B794F2 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
